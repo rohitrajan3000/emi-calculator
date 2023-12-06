@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emi calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+       <h1>EMI calculator</h1>
+    </header>
+
+
+    <main>
+        <section class="left">
+            <div class="amount">
+                <h4>Home Lone Amount  </h4>
+                <div class="amountinput">
+                    <input type="number" id="amount">
+                    <h4>₹</h4>
+                </div>
+            </div>
+            <div class="intrest">
+                <h4>Home Lone Intrest  </h4>
+                <div class="intrestinput">
+                    <input type="number" id="intrest">
+                    <h4>%</h4>
+                </div>
+
+            </div>
+            <div class="tenure">
+                <h4>Home Lone Tenure  </h4>
+                <div class="tenureinput">
+                    <input type="number" id="tenure">
+                    <h4>Months</h4>
+                </div>
+
+            </div>
+            <button id="submit">submit</button>
+
+        </section>
+        <section class="right">
+            <div class="emi">
+                <h4>Lone EMI</h4>
+                <div class="emioutput">
+                    <h4>₹</h4>
+                    <span id="emi"></span>
+                </div>
+            </div>
+            <div class="tintrest">
+                <h4>Total Interest Payable</h4>
+                <div class="intrestoutput">
+                    <h4>₹</h4>
+                    <span id="ti"></span>
+                </div>
+            </div>
+            <div class="total">
+                <h4>Total Payment
+                    (Principal + Interest)</h4>
+                <div class="totaloutput">
+                    <h4>₹</h4>
+                    <span id="total"></span>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

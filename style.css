@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: grey;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+    
+}
+
+
+
+main{
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    background-color: rgba(239,238,239,255);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+.amount .amountinput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.amount .amountinput input{
+    border: solid rgb(184, 180, 180) 1px;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 3px;
+}
+
+.intrest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+    
+}
+
+.intrest .intrestinput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    
+    
+}
+.intrest .intrestinput input{
+    border: solid rgb(184, 180, 180) 1px;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 3px;
+}
+
+
+
+.tenure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+
+.tenure .tenureinput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.tenure .tenureinput input{
+    border: solid rgb(184, 180, 180) 1px;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 3px;
+}
+
+
+
+
+.right{
+    width: 50%;
+    background-color: rgba(239,238,239,255);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.emi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+.emi .emioutput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.tintrest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+.tintrest .intrestoutput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+.total .totaloutput{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+#submit{
+    font-size: 1.5rem;
+    border: solid grey 1px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+}
